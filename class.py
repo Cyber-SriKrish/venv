@@ -1,0 +1,21 @@
+class Student:pass
+
+Student.crs="python"
+s1=Student()
+print("content of s1=",s1.__dict__)
+s2=Student()
+print("content of s1=",s2.__dict__)
+s1.stno=int(input("enter 1st st no:"))
+s1.sname=input("Enter 1st Name:")
+s1.marks=float(input("enter 1st marks:"))
+s2.stno=int(input("enter 2nd st no:"))
+s2.sname=input("Enter 2nd Name:")
+s2.marks=float(input("enter 2nd marks:"))
+print("1st st data")
+print("n0:",s1.stno)
+print("name:",s1.sname)
+print("marks:",s1.marks)
+print("2nd st data")
+print("n0:",s2.stno)
+print("name:",s2.sname)
+print("marks:",s2.marks)

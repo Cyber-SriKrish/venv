@@ -1,0 +1,5 @@
+print("Enter two values:")
+a=input()
+b=input()
+c=float(a)*float(b)
+print("mul({},{})= {}".format(a,b,c))

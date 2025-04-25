@@ -1,0 +1,22 @@
+print("Choice 1 = Rectangle")
+print("Choice 2 = Square")
+print("Choice 3 = Circle")
+print("|"*80)
+c=int(input("Enter Your Choice:"))
+if(c==1):
+    print("Rectangle")
+    l=float(input("Enter Lenght:"))
+    b=float(input("enter breadth:"))
+    a=(l*b)
+    print("Area if Rectangle is {}".format(a))
+elif(c==2):
+    print("square")
+    s=float(input("Enter side value:"))
+    a=(s**2)
+    print("Area if square is {}".format(a))
+else:
+    print("circle")
+    r=float(input("Enter radius:"))
+    a=22/7*(r**2)
+    print("Area if circle is {}".format(a))
+print("|"*80)
